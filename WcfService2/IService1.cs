@@ -24,9 +24,7 @@ namespace WcfService2
         List<JobOpenings> OpeningJobsByRole(string roleName);
 
 
-        [OperationContract]
-        CompositeType GetDataUsingDataContract(CompositeType composite);
-
+        
         // TODO: Add your service operations here
     }
 
